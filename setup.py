@@ -31,8 +31,6 @@ setup(
     include_package_data=True,
     install_requires=requires,
     extras_require={
-        ':python_version=="2.7"': [
-            'futures>=2.2.0,<4.0.0'],
         'crt': 'botocore[crt]>=1.20.29,<2.0a.0',
     },
     license="Apache License 2.0",
@@ -42,7 +40,6 @@ setup(
         'Natural Language :: English',
         'License :: OSI Approved :: Apache Software License',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
